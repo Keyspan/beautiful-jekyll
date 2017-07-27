@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Intro to NLP and Practical implementations
+subtitle: A summary of my Summer Internship
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+I am Yue Pan, currently Master student of Statistics in Rice University. This blog is a summary of my summer's projects, including introduction of basic NLP techniques and their implementations. Also  I am looking for full-time jobs of Data Science. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- E-mail: yp17@rice.edu
+- Tel: +1 281-857-4411
+- Linkedin: [Yue Pan](https://www.linkedin.com/in/yue-pan-b74109123/)
 
-What else do you need?
 
-### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Projects
+
