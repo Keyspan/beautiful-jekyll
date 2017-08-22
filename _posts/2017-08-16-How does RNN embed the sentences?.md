@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How does RNN embed the sentences?
+title: RNN in TensorFlow
 subtitle: RNN approach to understand sentences
 bigimg: /img/ducks.jpg
 ---
@@ -282,6 +282,17 @@ saver.restore(sess, os.path.join(ckpt.model_checkpoint_path))
 #### Implementation
 
 Finally, the implematation!!! Since there are 3 python files calling each other. I will not post here. The repo has been updated, [rnn](https://github.com/Keyspan/exploring_nlp/tree/master/rnn_lstm). You can run the train() function in `rnn_graph.py`.
+
+
+#### Results
+
+For now, it is still training. But the sample results are like,
+
+'I can finnaly go fishing!!!'. We can use this model to produce sentences.
+
+#### Application
+
+Of course, RNN could be used in any problems. If we use the last hidden state of each sentence to represent each sentence, we embed the sentence with one vector. We can use this vector to classfify this sentence by choosing targets as differnet categories, which has wide application on business problems. The codes only need to be edited slightly and take whatever you need.
 
 Good Luck!!!!! Next post, Seq2Seq Model--Chat Robot!!!
 
